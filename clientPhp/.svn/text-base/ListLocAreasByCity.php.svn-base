@@ -1,0 +1,31 @@
+<?php
+/*
+ * 接口功能：根据城市查询地区名称
+ * 入参：
+ * city_id：城市ID
+ * 返回值：
+ * ['status_code'=>xx, 'status_txt'=>xx, 'data'=>xx]，其中data格式如下：
+ * areaid：ID
+ * area：名称
+ */
+require_once dirname(__FILE__) . '/../Utils/HttpUtils.php';
+require_once dirname(__FILE__) . '/../Config_front.php';
+HttpUtils::checkUserPermissions([]);
+
+if (!HttpUtils::verifyPostParams(
+    'city_id')) {
+    echo json_encode(['status_code'=>9018, 'status_txt'=>'POST参数异常']);
+    exit(0);
+}
+
+$params = array(
+    'city_id' => $_POST['city_id']
+);
+
+$json_params = json_encode($params);
+
+$url = Config::SERVER_IP . '/ListLocAreasByCity.php';
+
+$res = HttpUtils::sendPost($url, $json_params, false, 'json', false);
+
+echo $res;

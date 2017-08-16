@@ -1,0 +1,89 @@
+:local .header {
+  padding: 10px;
+  height: 100px;
+  background-color: #ffffff;
+}
+:local .header img {
+  margin-right: 20px;
+  width: 80px;
+  height: 80px;
+}
+:local .header h3 {
+  line-height: 50px;
+  font-size: 18px;
+}
+:local .header p {
+  line-height: 14px;
+}
+:local .headerLine {
+  margin: 0 30px;
+  width: 1px;
+  height: 14px;
+  background-color: #d2d4d6;
+}
+:local .container {
+  margin-top: 10px;
+  background-color: #ffffff;
+}
+:local .enterpriseDetailContainer {
+  padding: 25px 0 14px;
+  background-color: #ffffff;
+}
+:local .team {
+  margin-bottom: 4px;
+  padding: 16px 20px 0;
+}
+:local .team img {
+  margin-right: 20px;
+  width: 54px;
+  height: 54px;
+}
+:local .team p {
+  line-height: 26px;
+}
+:local .team p.teamHonor {
+  width: 70px;
+}
+:local .line {
+  margin: 0 20px;
+  width: 1px;
+  height: 14px;
+  background-color: #d2d4d6;
+}
+:local .content,
+:local .finance {
+  padding: 0 20px;
+}
+:local .content p {
+  line-height: 30px;
+}
+:local .finance p,
+:local .financingHistory p,
+:local .trend p {
+  line-height: 34px;
+}
+:local .financingHistory {
+  padding: 10px 30px 10px 0;
+  border-bottom: 1px solid #f0f1f2;
+}
+:local .watchInfo {
+  display: block;
+  width: 100px;
+  line-height: 22px;
+  color: #17b2e5;
+  text-align: center;
+  border: 1px solid #17b2e5;
+  border-radius: 2px;
+}
+:local .trend {
+  padding: 10px 40px 10px 0;
+  border-bottom: 1px solid #f0f1f2;
+}
+
+/* 无数据样式 */
+:local .null {
+  margin-top: 8px;
+  padding: 0 20px;
+  line-height: 28px;
+  color: #babcbf;
+}

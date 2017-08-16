@@ -1,0 +1,23 @@
+:local .window {
+  position: relative;
+  width: 1090px;
+  height: 90%;
+  max-height: 90%;
+  background-color: #f0f1f2;
+}
+:local .mainContainer {
+  height: 100%;
+  padding-top: 48px;
+}
+:local .container {
+  padding: 10px;
+  height: 100%;
+}
+:local .importWindow {
+  position: relative;
+  padding: 10px;
+  width: 1090px;
+  height: 90%;
+  max-height: 90%;
+  background-color: #f0f1f2;
+}

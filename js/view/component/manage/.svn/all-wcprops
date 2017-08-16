@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/rk/!svn/ver/1026/dev/RKPlatform/wechat/front/js/view/component/manage
+END
+login.js
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/rk/!svn/ver/1026/dev/RKPlatform/wechat/front/js/view/component/manage/login.js
+END
+modifyPassword.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/rk/!svn/ver/800/dev/RKPlatform/wechat/front/js/view/component/manage/modifyPassword.js
+END
+userInfo.js
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/rk/!svn/ver/800/dev/RKPlatform/wechat/front/js/view/component/manage/userInfo.js
+END
+modifyUserInfo.js
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/rk/!svn/ver/800/dev/RKPlatform/wechat/front/js/view/component/manage/modifyUserInfo.js
+END
+findPassword.js
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/rk/!svn/ver/1026/dev/RKPlatform/wechat/front/js/view/component/manage/findPassword.js
+END

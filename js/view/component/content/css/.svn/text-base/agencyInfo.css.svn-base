@@ -1,0 +1,57 @@
+:local .header {
+  margin-bottom: 10px;
+  padding: 0 20px;
+  background-color: #ffffff;
+}
+:local .header h3 {
+  margin-right: 80px;
+  line-height: 60px;
+  font-size: 18px;
+}
+:local .header p {
+  line-height: 60px;
+  margin-right: 40px;
+}
+:local .container {
+  position: relative;
+  padding: 25px 0 15px;
+  background-color: #ffffff;
+}
+:local .team {
+  padding: 0 20px;
+}
+:local .team p {
+  line-height: 30px;
+}
+:local .team a {
+  line-height: 30px;
+  color: #1098df;
+  text-decoration: underline;
+}
+:local .tab {
+  border: 1px solid #ff530c;
+  border-radius: 2px;
+}
+:local .tab a {
+  display: block;
+  width: 144px;
+  line-height: 22px;
+  color: #ff530c;
+  text-align: center;
+}
+:local .tab a.checked {
+  display: block;
+  width: 144px;
+  line-height: 22px;
+  color: #fff;
+  text-align: center;
+  background-color: #ff530c;
+}
+
+/* 无数据样式 */
+:local .null {
+  margin-top: 8px;
+  padding: 0 20px;
+  line-height: 28px;
+  color: #babcbf;
+}

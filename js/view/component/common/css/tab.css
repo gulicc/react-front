@@ -1,0 +1,17 @@
+:local .tab {
+  position: relative;
+  background-color: #f9fafb;
+}
+:local .tab a {
+  display: block;
+  height: 54px;
+  line-height: 54px;
+  font-size: 16px;
+  text-align: center;
+}
+:local .tab a.active {
+  line-height: 54px;
+  color: #ff530c;
+  background-color: #ffffff;
+  border-top: 2px solid #ff530c;
+}

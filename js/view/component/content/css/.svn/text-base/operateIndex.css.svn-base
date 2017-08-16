@@ -1,0 +1,85 @@
+:local .container:after {
+  content: "";
+  display: block;
+  zoom: 1;
+  clear: both;
+}
+:local .item {
+  position: relative;
+  padding: 0 20px;
+  float: left;
+  width: 50%;
+  height: 140px;
+}
+:local .content {
+  width: 100%;
+  height: 100%;
+}
+:local .content a {
+  margin-left: 30%;
+  cursor: pointer;
+}
+:local .content a p {
+  line-height: 36px;
+}
+:local .content a:hover p {
+  color: #ff530c;
+}
+:local .icon {
+  margin-right: 30px;
+  width: 40px;
+  height: 36px;
+}
+:local .icon span {
+  display: block;
+}
+:local .icon span.icon1 {
+  width: 26px;
+  height: 34px;
+  background-image: url(../../../../../images/icon_operate_1.png);
+}
+:local .content a:hover span.icon1 {
+  background-image: url(../../../../../images/icon_operate_1_hover.png);
+}
+:local .icon span.icon2 {
+  width: 35px;
+  height: 36px;
+  background-image: url(../../../../../images/icon_operate_2.png);
+}
+:local .content a:hover span.icon2 {
+  background-image: url(../../../../../images/icon_operate_2_hover.png);
+}
+:local .icon span.icon3 {
+  width: 36px;
+  height: 34px;
+  background-image: url(../../../../../images/icon_operate_3.png);
+}
+:local .content a:hover span.icon3 {
+  background-image: url(../../../../../images/icon_operate_3_hover.png);
+}
+:local .icon span.icon4 {
+  width: 40px;
+  height: 33px;
+  background-image: url(../../../../../images/icon_operate_4.png);
+}
+:local .content a:hover span.icon4 {
+  background-image: url(../../../../../images/icon_operate_4_hover.png);
+}
+:local .heightLine {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -50px;
+  width: 1px;
+  height: 100px;
+  background-color: #b5b9bc;
+}
+:local .widthLine {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -46%;
+  width: 92%;
+  height: 1px;
+  background-color: #b5b9bc;
+}

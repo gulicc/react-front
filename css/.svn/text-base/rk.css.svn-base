@@ -1,0 +1,234 @@
+/* slider */
+.rk-slider {
+  width: 154px;
+  min-width: 154px;
+  height: 100%;
+  background-color: #1f2b39;
+}
+.rk-slider-close {
+  width: 60px;
+  min-width: 60px;
+  height: 100%;
+  background-color: #18222d;
+}
+.rk-main-slider {
+  width: 154px;
+}
+.rk-slider-img {
+  background: url(../images/background/slider.png)  no-repeat;
+}
+.rk-slider-header,
+.rk-slider-close-header {
+  height: 66px;
+  background-color: #263342;
+}
+.rk-slider-header {
+  padding: 0 14px;
+}
+.rk-slider-header h1 {
+  width: 80px;
+  height: 30px;
+  background-position: 0 -116px;
+  text-indent: -99999px;
+}
+.rk-slider-header a {
+  display: block;
+  width: 16px;
+  height: 14px;
+  background-position: 0 -10px;
+}
+.rk-slider-close-header a {
+  display: block;
+  width: 16px;
+  height: 14px;
+  background-position: 0 -24px;
+}
+.rk-slider-list {
+  padding-bottom: 32px;
+  background-color: #18222d;
+}
+.rk-slider-close-list {
+  background-color: #18222d;
+}
+.rk-slider-item {
+  height: 58px;
+  background-color: #1f2b39;
+}
+.rk-slider-close-item {
+  position: relative;
+  margin-bottom: 2px;
+  height: 58px;
+  background-color: #1f2b39;
+}
+.rk-slider-line {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  margin-top: -20px;
+  width: 4px;
+  height: 40px;
+  background-color: #ff530c;
+}
+.rk-slider-item-icon {
+  padding-left: 14px;
+  width: 44px;
+}
+.rk-slider-item-icon-width {
+  width: 20px;
+}
+.rk-slider-item-icon-width i {
+  display: block;
+  margin: 0 auto;
+}
+.rk-slider-item h2 {
+  line-height: 58px;
+  font-size: 16px;
+  font-family: "黑体";
+  color: #fff;
+}
+.left_icon0 {
+  width:22px;
+  height:20px;
+  background-image: url(../images/left_icon0.png);
+}
+.left_icon1 {
+  width:20px;
+  height:18px;
+  background-position:0 -77px;
+}
+.left_icon2 {
+  width:19px;
+  height:20px;
+  background-position:0 -57px;
+}
+.left_icon3 {
+  width:19px;
+  height:19px;
+  background-position:0 -38px;
+}
+.left_icon4 {
+  width:20px;
+  height:21px;
+  background-position:0 -95px;
+}
+.rk-slider-child-list {
+  padding: 12px 0;
+  background-color: #18222d;
+}
+.rk-slider-child,
+.rk-slider-child-active {
+  padding-left: 44px;
+}
+.rk-slider-child a,
+.rk-slider-child-active a {
+  display: block;
+  line-height: 40px;
+  font-size: 15px;
+  font-family: "黑体";
+  color: #fff;
+  text-decoration: none;
+}
+.rk-slider-child:hover,
+.rk-slider-child-active {
+  position: relative;
+  background-color: #ff530c;
+}
+.rk-slider-child-active:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  display: block;
+  margin-top: -5px;
+  background: url(../images/background/slider.png)  no-repeat;
+  width: 6px;
+  height: 10px;
+  background-position: 0 0;
+}
+.rk-slider-close-item:hover .rk-slider-close-hover-list {
+  display: block;
+}
+.rk-slider-close-hover-list {
+  position: absolute;
+  top: 0;
+  left: 60px;
+  z-index: 99;
+  display: none;
+  width: 160px;
+  background-color: #18222d;
+}
+.rk-slider-close-hover-list h2 {
+  padding-left: 30px;
+  line-height: 58px;
+  font-size: 18px;
+  font-family: "黑体";
+  color: #fff;
+  background-color: #1f2b39;
+}
+.rk-slider-child-close,
+.rk-slider-child-close-active {
+  padding-left: 30px;
+}
+.rk-slider-child-close a,
+.rk-slider-child-close-active a {
+  display: block;
+  line-height: 40px;
+  font-size: 16px;
+  font-family: "黑体";
+  color: #fff;
+}
+.rk-slider-child-close:hover,
+.rk-slider-child-close-active {
+  background-color: #ff530c;
+}
+html,
+body,
+#App,
+.main {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.main-container {
+  position: absolute;
+  top: 0;
+  padding-top: 48px;
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  background-color: #f0f1f2;
+}
+.container {
+  position: absolute;
+  padding: 10px;
+  width: 100%;
+  min-width: 1090px;
+  overflow: hidden;
+}
+.FreeScrollbar-vertical-track {
+  display: none;
+}
+.FreeScrollbar-container {
+  right: -17px !important;
+  bottom: -17px !important;
+}
+.rk-container {
+  padding: 20px;
+  background-color: #ffffff;
+}
+.pic-upload {
+  width: 82px;
+  height: 82px;
+  background: url(../images/icon_upload_pic.png) no-repeat center;
+  border: 1px solid #dadbde;
+  border-radius: 2px;
+}
+.avatar-uploader {
+  height: 82px;
+}
+.avatar {
+  width: 82px;
+  height: 82px;
+  border: 1px solid #dadbde;
+  border-radius: 2px;
+}

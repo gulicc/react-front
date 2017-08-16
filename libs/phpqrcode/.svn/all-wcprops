@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/rk/!svn/ver/800/dev/RKPlatform/wechat/front/libs/phpqrcode
+END
+qrconst.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/rk/!svn/ver/800/dev/RKPlatform/wechat/front/libs/phpqrcode/qrconst.php
+END
+LICENSE
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/rk/!svn/ver/800/dev/RKPlatform/wechat/front/libs/phpqrcode/LICENSE
+END
+qrbitstream.php
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/rk/!svn/ver/800/dev/RKPlatform/wechat/front/libs/phpqrcode/qrbitstream.php
+END
+qrspec.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/rk/!svn/ver/800/dev/RKPlatform/wechat/front/libs/phpqrcode/qrspec.php
+END
+qrmask.php
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/rk/!svn/ver/800/dev/RKPlatform/wechat/front/libs/phpqrcode/qrmask.php
+END
+qrsplit.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/rk/!svn/ver/800/dev/RKPlatform/wechat/front/libs/phpqrcode/qrsplit.php
+END
+VERSION
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/rk/!svn/ver/800/dev/RKPlatform/wechat/front/libs/phpqrcode/VERSION
+END
+qrencode.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/rk/!svn/ver/800/dev/RKPlatform/wechat/front/libs/phpqrcode/qrencode.php
+END
+CHANGELOG
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/rk/!svn/ver/800/dev/RKPlatform/wechat/front/libs/phpqrcode/CHANGELOG
+END
+qrinput.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/rk/!svn/ver/800/dev/RKPlatform/wechat/front/libs/phpqrcode/qrinput.php
+END
+qrtools.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/rk/!svn/ver/800/dev/RKPlatform/wechat/front/libs/phpqrcode/qrtools.php
+END
+index.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/rk/!svn/ver/800/dev/RKPlatform/wechat/front/libs/phpqrcode/index.php
+END
+README
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/rk/!svn/ver/800/dev/RKPlatform/wechat/front/libs/phpqrcode/README
+END
+qrconfig.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/rk/!svn/ver/800/dev/RKPlatform/wechat/front/libs/phpqrcode/qrconfig.php
+END
+qrlib.php
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/rk/!svn/ver/800/dev/RKPlatform/wechat/front/libs/phpqrcode/qrlib.php
+END
+INSTALL
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/rk/!svn/ver/800/dev/RKPlatform/wechat/front/libs/phpqrcode/INSTALL
+END
+qrrscode.php
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/rk/!svn/ver/800/dev/RKPlatform/wechat/front/libs/phpqrcode/qrrscode.php
+END
+qrimage.php
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/rk/!svn/ver/800/dev/RKPlatform/wechat/front/libs/phpqrcode/qrimage.php
+END
+phpqrcode.php
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/rk/!svn/ver/800/dev/RKPlatform/wechat/front/libs/phpqrcode/phpqrcode.php
+END

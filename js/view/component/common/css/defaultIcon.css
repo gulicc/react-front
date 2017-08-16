@@ -1,0 +1,108 @@
+:local .iconTrueSmall {
+  display: block;
+  width: 18px;
+  height: 18px;
+  background-image: url(../../../../../images/icon_true_18.png);
+}
+:local .iconFalseSmall {
+  display: block;
+  width: 18px;
+  height: 18px;
+  background-image: url(../../../../../images/icon_false_18.png);
+}
+:local .iconMaleLarge {
+  display: block;
+  width: 18px;
+  height: 19px;
+  background-image: url(../../../../../images/icon_male_large.png);
+}
+:local .iconMaleSmall {
+  display: block;
+  width: 11px;
+  height: 11px;
+  background-image: url(../../../../../images/icon_male_small.png);
+}
+:local .iconFemaleLarge {
+  display: block;
+  width: 14px;
+  height: 23px;
+  background-image: url(../../../../../images/icon_female_large.png);
+}
+:local .iconFemaleSmall {
+  display: block;
+  width: 9px;
+  height: 13px;
+  background-image: url(../../../../../images/icon_female_small.png);
+}
+:local .iconLeader {
+  display: block;
+  width: 22px;
+  height: 27px;
+  background-image: url(../../../../../images/icon_leader.png);
+}
+:local .iconInvestor {
+  display: block;
+  width: 22px;
+  height: 22px;
+  background-image: url(../../../../../images/icon_user_finance.png);
+}
+:local .iconArrowDown {
+  display: block;
+  width: 9px;
+  height: 9px;
+  background: url(../../../../../images/icon_arrow_down.png) no-repeat;
+}
+:local .iconArrowRight {
+  display: block;
+  width: 9px;
+  height: 9px;
+  background: url(../../../../../images/icon_arrow_right.png) no-repeat;
+}
+:local .iconAddSmall {
+  display: block;
+  width: 11px;
+  height: 11px;
+  background: url(../../../../../images/icon_add_small.png) no-repeat;
+}
+:local .iconEdit {
+  display: block;
+  width: 22px;
+  height: 24px;
+  background: url(../../../../../images/icon_edit.png) no-repeat;
+}
+:local .iconWatch {
+  display: block;
+  width: 28px;
+  height: 18px;
+  background: url(../../../../../images/icon_watch.png) no-repeat;
+}
+:local .iconSearch {
+  display: block;
+  width: 18px;
+  height: 18px;
+  background-image: url(../../../../../images/icon_search.png);
+}
+:local .transRight {
+  display: block;
+  width: 34px;
+  height: 32px;
+  background-image: url(../../../../../images/transRight.png);
+}
+:local .transLeft {
+  display: block;
+  width: 34px;
+  height: 32px;
+  background-image: url(../../../../../images/transLeft.png);
+}
+:local .uploadOk {
+  display: block;
+  width: 17px;
+  height: 12px;
+  background-image: url(../../../../../images/icon_file_ok.png);
+}
+:local .updateNext {
+  display: block;
+  width: 21px;
+  height: 21px;
+  background-image: url(../../../../../images/icon_next.png);
+}

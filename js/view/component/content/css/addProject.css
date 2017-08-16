@@ -1,0 +1,144 @@
+:local .container {
+  padding: 36px 46px 0;
+  height: 538px;
+  background-color: #ffffff;
+}
+:local .container h2 {
+  width: 70px;
+  line-height: 36px;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+}
+:local .step {
+  padding: 0 20px;
+  height: 32px;
+}
+:local .step span {
+  display: block;
+  width: 30px;
+  height: 32px;
+}
+:local .step span.do {
+  background-image: url(../../../../../images/icon_import_1.png);
+}
+:local .step span.undo {
+  background-image: url(../../../../../images/icon_import_2.png);
+}
+:local .line {
+  height: 1px;
+  background-color: #babcbf;
+}
+:local .step1 {
+  padding-top: 70px;
+}
+:local .step1 p,
+:local .step1 h3 {
+  line-height: 28px;
+  font-size: 16px;
+}
+:local .step1 h3 {
+  width: 32px;
+  font-weight: normal;
+}
+:local .tip {
+  padding: 18px 0 18px 32px;
+}
+:local .tip a {
+  line-height: 28px;
+  font-size: 16px;
+  color: #1098df;
+  text-decoration: underline;
+}
+:local .tip button {
+  position: relative;
+  width: 110px;
+  line-height: 24px;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #17b2e5;
+  border: none;
+  border-radius: 2px;
+}
+:local .tip p {
+  margin-left: 10px;
+  line-height: 24px;
+}
+:local .controller {
+  margin-top: 12px;
+}
+:local .start,
+:local .cancel,
+:local .finish {
+  display: block;
+  width: 210px;
+  line-height: 40px;
+  font-size: 18px;
+  text-align: center;
+  border-radius: 2px;
+}
+:local .start,
+:local .finish{
+  color: #ffffff;
+  background-color: #ff530c;
+}
+:local .cancel {
+  color: #ff530c;
+  border: 1px solid #ff530c;
+}
+:local .start {
+  margin-right: 30px;
+}
+:local .importing {
+  margin: 170px 0 160px;
+}
+:local .importing span {
+  display: block;
+  margin-right: 20px;
+  width: 30px;
+  height: 28px;
+  background-image: url(../../../../../images/icon_import_4.png);
+}
+:local .importing p {
+  line-height: 28px;
+  font-size: 16px;
+  color: #ff530c;
+}
+:local .importFinish {
+  margin: 94px 0 32px;
+}
+:local .importFinish span {
+  display: block;
+  margin-right: 10px;
+  width: 22px;
+  height: 22px;
+  background-image: url(../../../../../images/icon_import_5.png);
+}
+:local .importFinish p {
+  line-height: 22px;
+  font-size: 16px;
+  color: #ff530c;
+}
+:local .importFinishTip {
+  margin-bottom: 106px;
+  min-width: 210px;
+}
+:local .importFinishTip p {
+  line-height: 36px;
+  font-size: 16px;
+}
+:local .importFinishTip p a {
+  margin-left: 6px;
+  line-height: 36px;
+  font-size: 14px;
+  color: #1098df;
+  text-decoration: underline;
+}
+:local .upload {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  right: 0;
+  top: 0;
+  opacity: 0;
+}

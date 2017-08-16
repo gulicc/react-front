@@ -1,0 +1,9 @@
+K 10
+svn:ignore
+V 43
+*.idea
+.idea
+Config_front.php
+node_modules
+
+END

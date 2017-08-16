@@ -1,0 +1,91 @@
+/* 增加按钮 */
+:local .add a {
+  margin: 0 auto;
+  border: 1px solid #ff530c;
+  border-radius: 2px;
+}
+:local .add a i {
+  margin-right: 10px;
+  width: 11px;
+  height: 11px;
+  background-image: url(../../../../../images/icon_add.png);
+}
+:local .add a span {
+  line-height: 22px;
+  color: #ff530c;
+}
+:local .addLarge a {
+  margin: 0 auto;
+  background-color: #ff530c;
+  border-radius: 2px;
+}
+:local .addLarge a i {
+  margin-right: 16px;
+  width: 16px;
+  height: 16px;
+  background-image: url(../../../../../images/icon_add_16.png);
+}
+:local .addLarge a span {
+  line-height: 32px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+/* 删除按钮 */
+:local .delete {
+  display: block;
+  width: 14px;
+  height: 14px;
+  background-image: url(../../../../../images/icon_delete.png);
+  cursor: pointer;
+}
+
+/* 关闭弹窗按钮 */
+:local .close {
+  display: block;
+  width: 18px;
+  height: 18px;
+  background-image: url(../../../../../images/icon_close.png);
+}
+
+:local .closeInfo {
+  display: block;
+  width: 18px;
+  height: 18px;
+  background-image: url(../../../../../images/icon_close_1.png);
+}
+
+/* 取消按钮 gu */
+:local .cancel {
+  display: block;
+  height: 48px;
+  line-height: 48px;
+  width: 50px;
+  color: #0000ee;
+  text-align: center;
+};
+
+/* 浏览模式、编辑模式按钮 */
+:local .editOrWatchButton {
+  position: absolute;
+  height: 54px;
+  cursor: pointer;
+}
+:local .editOrWatchButton span {
+  line-height: 28px;
+  color: #ff530c;
+}
+
+/* 编辑详情页面按钮 */
+:local .formButton {
+  width: 300px;
+  line-height: 46px;
+  text-align: center;
+  border-radius: 2px;
+  cursor: pointer;
+}
+:local .formButton p {
+  font-size: 18px;
+  color: #ffffff;
+}

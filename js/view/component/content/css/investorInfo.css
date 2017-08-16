@@ -1,0 +1,110 @@
+:local .header {
+  padding: 0 20px;
+  background-color: #ffffff;
+}
+:local .header h3 {
+  margin-right: 46px;
+  line-height: 60px;
+  font-size: 18px;
+}
+:local .header p {
+  line-height: 60px;
+  margin-right: 40px;
+}
+:local .container {
+  position: relative;
+}
+:local .investorDetailContainer {
+  padding: 25px 0 14px;
+  background-color: #ffffff;
+}
+:local .userInfo {
+  margin-top: 15px;
+  padding-left: 20px;
+}
+:local .userInfo img {
+  margin-right: 56px;
+  width: 54px;
+  height: 54px;
+}
+:local .userInfo p {
+  line-height: 27px;
+}
+:local .line {
+  margin: 0 24px;
+  width: 1px;
+  height: 14px;
+  background-color: #d2d4d6;
+}
+:local .infoList p {
+  padding: 0 20px;
+  line-height: 56px;
+  font-size: 16px;
+}
+:local .infoList p span {
+  padding: 0 10px;
+  line-height: 56px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff530c;
+}
+:local .projectInteractSubmit {
+  display: block;
+  margin: 40px auto 0;
+  width: 210px;
+  line-height: 40px;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #ff530c;
+  border: none;
+  border-radius: 2px;
+  outline: none;
+}
+:local .tab {
+  border: 1px solid #ff530c;
+  border-radius: 2px;
+}
+:local .tab a {
+  display: block;
+  width: 144px;
+  line-height: 22px;
+  color: #ff530c;
+  text-align: center;
+}
+:local .tab a.checked {
+  display: block;
+  width: 144px;
+  line-height: 22px;
+  color: #fff;
+  text-align: center;
+  background-color: #ff530c;
+}
+:local .activeToggle {
+  margin-top: 10px;
+  padding-left: 10px;
+  height: 60px;
+  background-color: #fff;
+  border-bottom: 1px solid #f0f1f2;
+}
+:local .activeToggle i {
+  display: block;
+  width: 8px;
+  height: 9px;
+  background-image: url(../../../../../images/icon_arrow_right.png);
+  transition: all .3s ease;
+}
+:local .activeToggle i.show {
+  transform: rotate(90deg);
+  -ms-transform:rotate(90deg); 	/* IE 9 */
+  -moz-transform:rotate(90deg); 	/* Firefox */
+  -webkit-transform:rotate(90deg); /* Safari 和 Chrome */
+  -o-transform:rotate(90deg); 	/* Opera */
+}
+:local .activeToggle span {
+  margin-left: 12px;
+  line-height: 30px;
+  font-size: 16px;
+}
+:local .activeToggle a:hover span {
+  color: #ff530c;
+}

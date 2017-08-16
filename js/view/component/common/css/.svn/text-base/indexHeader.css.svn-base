@@ -1,0 +1,25 @@
+:local .title h2 {
+  line-height: 30px;
+  font-size: 18px;
+}
+:local .title a {
+  margin-left: 30px;
+  font-size: 15px;
+  color: #1098df;
+  text-decoration: underline;
+}
+:local .add {
+  width: 160px;
+  line-height: 28px;
+  font-size: 16px;
+  color: #ff530c;
+  border: 1px solid #ff530c;
+  border-radius: 30px;
+}
+:local .add span {
+  display: block;
+  margin-right: 10px;
+  width: 11px;
+  height: 11px;
+  background-image: url(../../../../../images/icon_add.png);
+}

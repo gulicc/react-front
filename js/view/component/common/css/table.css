@@ -1,0 +1,38 @@
+:local .table {
+  width: 100%;
+  border-top: 2px solid #ff530c;
+  border-collapse:separate;
+  border-spacing: 0;
+}
+:local .table thead {
+  background-color: #fffbfa;
+}
+:local .table thead tr {
+  height: 50px;
+}
+:local .table thead tr th {
+  font-size: 15px;
+  color: #323436;
+  text-align: left;
+}
+:local .table tbody tr {
+  height: 50px;
+}
+:local .table tbody tr td {
+  padding-right: 14px;
+  line-height: 19px;
+  font-size: 13px;
+  color: #323436;
+}
+:local .table tbody tr td p {
+  max-height: 40px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+:local .table tbody tr td a {
+  color: #1098df;
+  text-decoration: underline;
+  cursor: pointer;
+}

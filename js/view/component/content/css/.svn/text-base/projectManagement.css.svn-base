@@ -1,0 +1,80 @@
+:local .container {
+  padding: 20px;
+  background-color: #ffffff;
+}
+:local .search {
+  width: 806px;
+  height: 32px;
+  border: 1px solid #1f2b39;
+  border-radius: 2px;
+  overflow: hidden;
+}
+:local .search input[type="text"] {
+  padding-left: 20px;
+  border: none;
+  outline: none;
+}
+:local .search button {
+  width: 110px;
+  background-color: #1f2b39;
+  border: none;
+  outline: none;
+}
+:local .search button span {
+  display: block;
+  margin-right: 14px;
+  width: 18px;
+  height: 18px;
+  background-image: url(../../../../../images/icon_search.png);
+}
+:local .search button p {
+  line-height: 32px;
+  font-size: 14px;
+  color: #ffffff;
+}
+:local .insert {
+  position: relative;
+  display: block;
+  margin-left: 30px;
+  width: 194px;
+}
+:local .insert p {
+  line-height: 30px;
+  font-size: 14px;
+  color: #ff530c;
+  text-align: center;
+  border: 1px solid #ff530c;
+  border-radius: 32px;
+}
+:local .insertItem {
+  position: absolute;
+  top: 32px;
+  left: 0;
+  z-index: 99;
+  display: none;
+  padding-top: 20px;
+  width: 100%;
+}
+:local .insertLink {
+  border-radius: 32px;
+  overflow: hidden;
+}
+:local .insertLink a {
+  float: left;
+  display: block;
+  width: 50%;
+  line-height: 30px;
+  font-size: 14px;
+  color: #ffffff;
+  text-align: center;
+  background-color: #ff530c;
+}
+:local .insert:hover .insertItem {
+  display: block;
+}
+:local .select {
+  margin-top: 20px;
+  padding: 12px 20px;
+  width: 100%;
+  background-color: #fbfbfb;
+}

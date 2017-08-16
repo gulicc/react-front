@@ -1,0 +1,13 @@
+:local .stockTitle {
+  padding-top: 6px;
+}
+:local .stockTitle p {
+  line-height: 43px;
+  font-size: 15px;
+}
+:local .input input[type="text"] {
+  height: 28px;
+  border: 1px solid #dadbde;
+  border-radius: 2px;
+}
+

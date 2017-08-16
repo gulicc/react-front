@@ -1,0 +1,156 @@
+:local .add {
+  background-color: #ffffff;
+}
+:local .header {
+  padding-left: 20px;
+  border-bottom: 1px solid #f0f1f2;
+}
+:local .header h2 {
+  line-height: 58px;
+  font-size: 18px;
+  font-weight: normal;
+}
+:local .main {
+  padding: 0 30px;
+}
+:local .formItemTitle {
+  line-height: 28px;
+  font-size: 14px;
+}
+:local .formItemTableTitle {
+  line-height: 43px;
+  font-size: 15px;
+}
+:local .formItem p {
+  line-height: 28px;
+  font-size: 14px;
+}
+:local .formItem textarea {
+  padding: 10px;
+  border: 1px solid #dadbde;
+  border-radius: 2px;
+}
+:local .formProgress p {
+  line-height: 20px;
+  font-size: 14px;
+}
+:local .progress {
+  height: 6px;
+  border: 1px solid #ff530c;
+  border-radius: 6px;
+}
+:local .progressCount {
+  height: 100%;
+  background-color: #ff530c;
+  transition: width linear .1s;
+}
+:local .question {
+  display: block;
+  margin-left: 30px;
+  width: 96px;
+  height: 22px;
+  line-height: 20px;
+  font-size: 14px;
+  color: #ff530c;
+  text-align: center;
+  border: 1px solid #ff530c;
+  border-radius: 2px;
+}
+:local .star {
+  display: block;
+  margin-right: 14px;
+  width: 16px;
+  height: 15px;
+  cursor: pointer;
+}
+:local .file {
+  line-height: 23px;
+  font-size: 15px;
+}
+:local .fileItem {
+  position: relative;
+  margin-bottom: 16px;
+  padding-right: 62px;
+}
+:local .fileItem:last-child {
+  margin-bottom: 0;
+}
+:local .fileItem p {
+  line-height: 28px;
+  font-size: 14px;
+}
+:local .import {
+  display: block;
+  width: 54px;
+  line-height: 18px;
+  font-size: 14px;
+  color: #ff530c;
+  text-align: center;
+  border: 1px solid #ff530c;
+  border-radius: 20px;
+}
+:local .upload {
+  display: block;
+  width: 70px;
+  line-height: 18px;
+  font-size: 14px;
+  color: #17b2e5;
+  text-align: center;
+  border: 1px solid #17b2e5;
+  border-radius: 20px;
+}
+:local .delete {
+  position: absolute;
+  right: 92px;
+  display: block;
+  width: 18px;
+  height: 18px;
+  background-image: url(../../../../../images/icon_delete.png);
+  cursor: pointer;
+}
+:local .addFile a {
+  margin: 0 auto;
+  width: 96px;
+  line-height: 20px;
+  font-size: 14px;
+  color: #ff530c;
+  border: 1px solid #ff530c;
+  border-radius: 2px;
+  cursor: pointer;
+}
+:local .addFile a span {
+  display: block;
+  margin-right: 10px;
+  width: 11px;
+  height: 11px;
+  background-image: url(../../../../../images/icon_add.png);
+}
+:local .submit {
+  display: block;
+  margin: 20px auto 0;
+  width: 440px;
+  line-height: 46px;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #ff530c;
+  border: none;
+  border-radius: 2px;
+  outline: none;
+  -webkit-box-shadow:0px 0px 14px #fed2c0;
+     -moz-box-shadow:0px 0px 14px #fed2c0;
+          box-shadow:0px 0px 14px #fed2c0;
+  cursor: pointer;
+}
+
+:local .formRate {
+  margin-left: 26px;
+  line-height: 28px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* 文件上传 */
+:local .fileName {
+  margin-right: 36px;
+  line-height: 28px;
+}

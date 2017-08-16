@@ -1,0 +1,43 @@
+:local .select {
+  position: relative;
+}
+:local .title {
+  margin-right: 15px;
+  line-height: 38px;
+  font-size: 14px;
+}
+:local .label input[type="checkbox"],
+:local .label input[type="radio"] {
+  display: none;
+}
+:local .item {
+  float: left;
+  margin-right: 2px;
+  height: 38px;
+}
+:local .item a {
+  padding: 0 15px;
+  line-height: 20px;
+  font-size: 14px;
+  cursor: pointer;
+}
+:local .item a.checked {
+  color: #ffffff;
+  background-color: #1f2b39;
+}
+:local .more {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
+:local .more p {
+  margin: 0;
+  line-height: 38px;
+}
+:local .more span {
+  display: block;
+  margin-left: 10px;
+  width: 9px;
+  height: 8px;
+  background-image: url(../../../../../images/icon_more_down.png);
+}

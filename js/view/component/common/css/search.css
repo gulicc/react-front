@@ -1,0 +1,24 @@
+:local .search {
+  width: 806px;
+  height: 32px;
+  border: 1px solid #1f2b39;
+  border-radius: 2px;
+  overflow: hidden;
+}
+:local .search input[type="text"] {
+  padding-left: 20px;
+  border: none;
+  outline: none;
+}
+:local .button {
+  display: block;
+  width: 110px;
+  background-color: #1f2b39;
+  border: none;
+  outline: none;
+}
+:local .search p {
+  line-height: 30px;
+  font-size: 14px;
+  color: #ffffff;
+}

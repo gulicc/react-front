@@ -1,0 +1,103 @@
+:local .count {
+  margin-right: 18px;
+  line-height: 24px;
+  font-size: 13px;
+  color: #9f9f9f;
+}
+:local .first,
+:local .last,
+:local .left,
+:local .right {
+  display: block;
+  width: 24px;
+  height: 24px;
+  line-height: 22px;
+  font-size: 13px;
+  color: #ff530c;
+  text-align: center;
+  border: 1px solid #ff530c;
+  border-radius: 2px;
+  cursor: pointer;
+}
+:local .first:hover,
+:local .last:hover {
+  color: #ffffff;
+  background-color: #ff530c;
+}
+:local .left {
+  margin-left: 10px;
+  background: url(../../../../../images/icon_page_left_1.png) no-repeat center;
+}
+:local .left:hover {
+  background: #ff530c url(../../../../../images/icon_page_left_2.png) no-repeat center;
+}
+:local .right {
+  margin-right: 10px;
+  background: url(../../../../../images/icon_page_right_1.png) no-repeat center;
+}
+:local .right:hover {
+  background: #ff530c url(../../../../../images/icon_page_right_2.png) no-repeat center;
+}
+:local .number {
+  display: block;
+  margin: 0 13px;
+  width: 30px;
+  height: 24px;
+  font-size: 16px;
+  color: #ff530c;
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid #ff530c;
+  outline: none;
+}
+:local .chooseShow {
+  position: relative;
+  margin-left: 46px;
+  padding: 0 6px;
+  width: 44px;
+  height: 24px;
+  border: 1px solid #ff530c;
+  border-radius: 2px;
+}
+:local .chooseShow p {
+  line-height: 22px;
+  font-size: 13px;
+  color: #ff530c;
+}
+:local .chooseShow span {
+  display: block;
+  width: 9px;
+  height: 5px;
+  background: url(../../../../../images/icon_page_down.png) no-repeat;
+}
+:local .chooseList {
+  position: absolute;
+  bottom: 23px;
+  left: -1px;
+  z-index: 99;
+  display: none;
+  width: 44px;
+  background-color: #ffffff;
+  border: 1px solid #eaeaea;
+  border-bottom: none;
+  border-radius: 2px;
+}
+:local .chooseList a {
+  display: block;
+  padding: 0 6px;
+  line-height: 33px;
+  font-size: 13px;
+  cursor: pointer;
+}
+:local .chooseList a:hover {
+  color: #ff530c;
+}
+:local .chooseShow:hover span {
+  display: block;
+  width: 9px;
+  height: 5px;
+  background: url(../../../../../images/icon_page_up.png) no-repeat;
+}
+:local .chooseShow:hover .chooseList {
+  display: block;
+}

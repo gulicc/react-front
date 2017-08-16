@@ -1,0 +1,49 @@
+:local .container {
+  padding: 35px 30px 32px;
+  background-color: #ffffff;
+}
+:local .button {
+  margin-top: 35px;
+}
+:local .button a,
+:local .button input[type="submit"] {
+  display: block;
+  margin: 0 10px;
+  width: 130px;
+  line-height: 40px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  border: none;
+  border-radius: 2px;
+}
+:local .button a.modifyPassword {
+  background-color: #17b2e5;
+}
+:local .button a.modifyUserInfo,
+:local .button a.modifySave,
+:local .button input[type="submit"].modifySave {
+  background-color: #ff530c;
+}
+:local .button a.modifySave,
+:local .button input[type="submit"].modifySave {
+  width: 210px;
+}
+:local .passwordTip {
+  margin-left: 20px;
+  line-height: 44px;
+  color: #babcbf;
+}
+:local .modifyMobileContent {
+  margin-top: 43px;
+}
+:local .modifyMobileContent p {
+  line-height: 30px;
+  text-align: center;
+}
+:local .modifyMobileContent p span {
+  margin-left: 8px;
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: bold;
+}

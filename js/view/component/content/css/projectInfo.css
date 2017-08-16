@@ -1,0 +1,366 @@
+:local .header {
+  padding: 0 20px;
+  background-color: #ffffff;
+}
+:local .header h3,
+:local .header p {
+  margin-right: 30px;
+  line-height: 60px;
+  font-size: 18px;
+  font-weight: bold;
+}
+:local .headerProject {
+  margin-right: 30px;
+}
+:local .headerProject p {
+  margin: 0;
+  padding: 0 30px;
+  line-height: 28px;
+  font-size: 14px;
+  font-weight: normal;
+  border-left: 1px solid #d2d4d6;
+  border-right: 1px solid #d2d4d6;
+}
+:local .headerProject p:last-child {
+  border-left: none;
+}
+:local .headerTag p {
+  line-height: 28px;
+  font-size: 14px;
+  font-weight: normal;
+}
+:local .headerTag p:last-child {
+  margin: 0;
+}
+:local .left {
+  width: 780px;
+  background-color: #ffffff;
+}
+:local .right {
+  margin-left: 10px;
+  width: 280px;
+  background-color: #ffffff;
+}
+:local .see {
+  position: relative;
+  display: block;
+  margin-left: 30px;
+  width: 130px;
+  line-height: 24px;
+  color: #ff530c;
+  text-align: center;
+  border: 1px solid #ff530c;
+  border-radius: 2px;
+}
+:local .seeItem {
+  display: block;
+  width: 60px;
+  line-height: 24px;
+  color: #ff530c;
+  text-align: center;
+  border: 1px solid #ff530c;
+  border-radius: 2px;
+}
+:local .seeItemChecked {
+  display: block;
+  width: 60px;
+  line-height: 24px;
+  color: #fff;
+  text-align: center;
+  background-color: #ff530c;
+  border-radius: 2px;
+}
+:local .workStatus {
+  margin-left: 48px;
+  line-height: 24px;
+  font-size: 16px;
+}
+:local .workProgress {
+  padding: 10px 20px;
+}
+:local .workProgress p,
+:local .workMember p {
+  line-height: 34px;
+}
+:local .workProgress p span {
+  margin-left: 12px;
+}
+:local .workMember {
+  padding: 4px 0 14px 20px;
+}
+:local .tab {
+  position: relative;
+  background-color: #f9fafb;
+}
+:local .tab a {
+  display: block;
+  height: 54px;
+  line-height: 54px;
+  font-size: 16px;
+  text-align: center;
+}
+:local .tab a.active {
+  line-height: 54px;
+  color: #ff530c;
+  background-color: #ffffff;
+  border-top: 2px solid #ff530c;
+}
+:local .infoList p {
+  padding: 0 20px;
+  line-height: 56px;
+  font-size: 16px;
+}
+:local .infoList p span {
+  padding: 0 10px;
+  line-height: 56px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff530c;
+}
+:local .projectSubmit {
+  display: block;
+  margin: 40px auto 0;
+  width: 210px;
+  line-height: 40px;
+  font-size: 18px;
+  color: #ffffff;
+  background-color: #ff530c;
+  border: none;
+  border-radius: 2px;
+  outline: none;
+}
+:local .updateNext {
+  display: block;
+  margin: 20px auto 10px;
+  width: 238px;
+  line-height: 24px;
+  color: #fff;
+  text-align: center;
+  background-color: #ff530c;
+  border-radius: 2px;
+  cursor: pointer;
+}
+:local .updateNext span {
+  margin-left: 12px;
+  color: #ffffff;
+}
+
+:local .treat {
+  position: relative;
+  margin-left: 30px;
+  width: 126px;
+  border: 1px solid #ff530c;
+  border-radius: 2px;
+}
+:local .treat p {
+  width: 96px;
+  line-height: 22px;
+  color: #ff530c;
+  text-align: center;
+}
+:local .treatArrow {
+  width: 28px;
+  height: 22px;
+  background: url(../../../../../images/icon_project_treat.png) no-repeat center;
+  background-color: #ff530c;
+}
+:local .treatList {
+  position: absolute;
+  top: 22px;
+  left: -1px;
+  padding: 5px 20px;
+  width: 126px;
+  background-color: #ffffff;
+  border: 1px solid #ff530c;
+  border-radius: 2px;
+}
+:local .treatList a {
+  display: block;
+  line-height: 24px;
+}
+
+/* 相关附件样式 */
+:local .fileTitle p {
+  line-height: 35px;
+  font-size: 15px;
+}
+:local .fileName p,
+:local .fileName a {
+  padding-right: 14px;
+  line-height: 34px;
+  height: 34px;
+  overflow: hidden;
+}
+:local .fileName a {
+  display: block;
+  color: #1098df;
+}
+:local .activeToggle {
+  margin-top: 10px;
+  padding-left: 10px;
+  height: 60px;
+  background-color: #fff;
+  border-bottom: 1px solid #f0f1f2;
+}
+:local .activeToggle i {
+  display: block;
+  width: 8px;
+  height: 9px;
+  background-image: url(../../../../../images/icon_arrow_right.png);
+  transition: all .3s ease;
+}
+:local .activeToggle i.show {
+  transform: rotate(90deg);
+  -ms-transform:rotate(90deg); 	/* IE 9 */
+  -moz-transform:rotate(90deg); 	/* Firefox */
+  -webkit-transform:rotate(90deg); /* Safari 和 Chrome */
+  -o-transform:rotate(90deg); 	/* Opera */
+}
+:local .activeToggle span {
+  margin-left: 12px;
+  line-height: 30px;
+  font-size: 16px;
+}
+:local .activeToggle a:hover span {
+  color: #ff530c;
+}
+
+:local .mainContent {
+  margin-right: 290px;
+}
+:local .commonEdit {
+  float: right;
+  padding-bottom: 40px;
+  width: 280px;
+  background-color: #fff;
+}
+
+:local .priority {
+  padding-right: 26px;
+  height: 54px;
+  border-bottom: 1px solid #f0f1f2;
+}
+:local .selectArea {
+  position: relative;
+}
+:local .selectArea span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  line-height: 22px;
+  font-size: 14px;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #dadbde;
+  cursor: pointer;
+}
+:local .selectArea span i {
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  width: 11px;
+  height: 6px;
+  background-image: url(../../../../../images/Import_icon3.png);
+}
+:local .inputSelect {
+  display: block;
+  width: 168px;
+  height: 24px;
+  font-size: 14px;
+  text-align: center;
+  background-color: #fff;
+  border: none;
+  outline: none;
+}
+:local .selectItem {
+  position: absolute;
+  top: 24px;
+  left: 0;
+  z-index: 3;
+  padding: 10px 0;
+  width: 100%;
+  background-color: #ffffff;
+  border: 1px solid #dadbde;
+  border-top: none;
+}
+:local .selectItem a {
+  display: block;
+  padding-left: 20px;
+  line-height: 24px;
+}
+:local .selectItem a:hover {
+  color: #ff530c;
+}
+:local .selectArea span:hover {
+  border: 1px solid #ff530c !important;
+}
+:local .teamList {
+  margin-top: 6px;
+  margin-left: 86px;
+}
+:local .teamList p {
+  padding-right: 14px;
+  height: 34px;
+  line-height: 34px;
+  overflow: hidden;
+}
+:local .teamListItem:hover a {
+  display: block;
+}
+:local .teamListItem a {
+  display: none;
+}
+:local .addButton {
+  float: right;
+  display: block;
+  margin-top: 18px;
+  margin-right: 26px;
+  width: 168px;
+  line-height: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: #dadbde;
+  border: 1px solid #dadbde;
+}
+:local .addButton:hover {
+  color: #ff530c;
+  border: 1px solid #ff530c;
+}
+:local .schedule {
+  padding-top: 14px;
+  padding-bottom: 98px;
+  border-bottom: 1px solid #f0f1f2;
+}
+:local .updateNext {
+  display: block;
+  margin-top: 20px;
+  margin-left: 86px;
+  width: 168px;
+  line-height: 24px;
+  font-size: 14px;
+  color: #ff530c;
+  text-align: center;
+  background-color: #ffffff;
+  border: 1px solid #ff530c;
+}
+:local .scheduleList {
+  margin-left: 86px;
+}
+:local .scheduleList p {
+  height: 34px;
+  line-height: 34px;
+  font-size: 13px;
+  overflow: hidden;
+}
+:local .scheduleDelete {
+  margin-left: 12px;
+}
+:local .scheduleListItem:hover a {
+  display: block;
+}
+:local .scheduleListItem a {
+  display: none;
+}

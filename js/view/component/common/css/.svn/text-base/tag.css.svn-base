@@ -1,0 +1,57 @@
+:local .select {
+  position: relative;
+}
+:local .list {
+  padding-right: 70px;
+}
+:local .list:after {
+  display: block;
+  content: "";
+  clear: both;
+  zoom: 1;
+}
+:local .item {
+  float: left;
+  margin-right: 18px;
+  height: 28px;
+}
+:local .tagItem {
+  padding: 0 15px;
+  height: 20px;
+  background: #1f2b39;
+}
+:local .tagItem span {
+  line-height: 20px;
+  font-size: 14px;
+  color: #ffffff;
+}
+:local .tagItem a {
+  display: block;
+  margin-left: 12px;
+  width: 7px;
+  height: 7px;
+  background-image: url(../../../../../images/icon_tag_delete.png);
+  cursor: pointer;
+}
+:local .add {
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: url(../../../../../images/icon_tag_add.png) no-repeat center;
+  border: 1px solid #1f2b39;
+  border-radius: 2px;
+  cursor: pointer;
+}
+:local .timeRange input[type=text]{
+  display: block;
+  width: 104px;
+  height: 28px;
+  border: 1px solid #dadbde;
+  border-radius: 2px;
+}
+:local .line {
+  margin: 0 8px;
+  width: 10px;
+  height: 1px;
+  background-color: #dadbde;
+}

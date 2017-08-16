@@ -1,0 +1,238 @@
+:local .alertWindow {
+  position: relative;
+  background-color: #ffffff;
+}
+:local .alertWindow h4 {
+  line-height: 76px;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+}
+:local .windowContent p {
+  line-height: 28px;
+}
+:local .save,
+:local .cancel {
+  display: block;
+  width: 140px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 30px;
+  cursor: pointer;
+}
+:local .save {
+  color: #ffffff;
+  background-color: #ff530c;
+}
+:local .cancel {
+  color: #ff530c;
+  border: 1px solid #ff530c;
+}
+
+/*标签*/
+:local .tag:after {
+  display: block;
+  content: "";
+  clear: both;
+  zoom: 1;
+}
+:local .item {
+  float: left;
+  margin-right: 2px;
+  margin-bottom: 10px;
+}
+:local .tag a {
+  display: block;
+  padding: 0 15px;
+  line-height: 20px;
+  font-size: 14px;
+  cursor: pointer;
+}
+:local .tag a.checked {
+  color: #ffffff;
+  background-color: #1f2b39;
+}
+
+/* 指定投资人 */
+:local .see {
+  display: block;
+  margin-top: 10px;
+  width: 130px;
+  line-height: 24px;
+  color: #ff530c;
+  text-align: center;
+  border: 1px solid #ff530c;
+  border-radius: 2px;
+}
+:local .seeChecked {
+  display: block;
+  margin-top: 10px;
+  width: 130px;
+  line-height: 24px;
+  color: #fff;
+  text-align: center;
+  background-color: #ff530c;
+  border: 1px solid #ff530c;
+  border-radius: 2px;
+}
+:local .transTitle {
+  line-height: 56px;
+  font-size: 16px;
+  font-weight: normal;
+  text-align: center;
+}
+:local .search {
+  margin-bottom: 10px;
+  width: 244px;
+  height: 28px;
+  border: 1px solid #1f2b39;
+  border-radius: 2px;
+  overflow: hidden;
+}
+:local .search input[type="text"] {
+  display: block;
+  padding: 0 20px;
+  width: 190px;
+  border: none;
+  outline: none;
+}
+:local .search button {
+  display: block;
+  color: #ffffff;
+  background-color: #1f2b39;
+  border: none;
+  outline: none;
+}
+:local .list {
+  width: 244px;
+  height: 290px;
+  border: 1px solid #1f2b39;
+}
+:local .listTitle {
+  background-color: #f5f6f8;
+}
+:local .listTitle:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+:local .listTitle p {
+  float: left;
+  width: 50%;
+  line-height: 28px;
+  text-align: center;
+}
+:local .listItem,
+:local .listItemChecked {
+  margin-top: 2px;
+}
+:local .listItem:after,
+:local .listItemChecked:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+:local .listItemChecked {
+  background-color: #ff530c;
+}
+:local .listItem p,
+:local .listItemChecked p {
+  float: left;
+  width: 50%;
+  line-height: 22px;
+  text-align: center;
+}
+:local .listItemChecked p {
+  color: #ffffff;
+}
+:local .transNumber {
+  margin-top: -10px;
+  margin-bottom: 20px;
+  line-height: 28px;
+  text-align: center;
+}
+:local .transNumber span {
+  color: #ff530c;
+}
+:local .transButton {
+  padding-top: 94px;
+}
+
+/* 显示指定投资人 */
+:local .investorList {
+  margin: 0 auto;
+  width: 246px;
+  border: 1px solid #1f2b39;
+}
+:local .investorListTitle {
+  background-color: #f5f6f8;
+}
+:local .investorListTitle p,
+:local .investorListItem p {
+  line-height: 28px;
+  text-align: center;
+}
+
+/* 问卷调查 */
+:local .question {
+  height: 414px;
+  overflow-y: scroll;
+}
+:local .questionTitle {
+  line-height: 30px;
+}
+
+/* 项目管理更新状态 */
+:local .updateItem {
+  height: 18px;
+}
+:local .updateLine {
+  margin-left: 5px;
+  width: 2px;
+  height: 22px;
+}
+:local .updateCircle {
+  display: block;
+  margin-right: 22px;
+  width: 12px;
+  height: 12px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+:local .updateItem p {
+  padding-left: 10px;
+}
+:local .updateItem p span {
+  margin-right: 8px;
+  font-weight: bold;
+}
+:local .updateItemNext {
+  padding-left: 9px;
+  width: 170px;
+  line-height: 27px;
+  border: 1px solid #ff530c;
+  border-radius: 27px;
+  cursor: pointer;
+}
+:local .updateItemTime p {
+  line-height: 30px;
+  text-align: center;
+}
+:local .updateItemTime p span {
+  color: #ff530c;
+}
+
+/* confirm样式 */
+:local .confirm p {
+  line-height: 60px;
+  text-align: center;
+}
+
+/* 快速评定样式 */
+:local .speedLine {
+  margin: 22px auto;
+  width: 390px;
+  height: 1px;
+  background-color: #f0f1f2;
+}
